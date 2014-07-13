@@ -3,7 +3,7 @@ AD-to-SWN is a modification of a closed-source python script used to query an Ac
 ###Status/To Do 
 This is still in alpha; the closed-source script is a modification of this in current usage, and required fields are not yet abstracted out into the creation of the SWN Contacts. 
 
-The SWN Contact class needs to be separated out and take in a listing of arguments / be able to translate those into all possible SWN fields or add them to custom fields as necessary. The XML writer will then need to be updated accordingly.
+The SWN Contact class needs to be separated out and take in a listing of arguments / be able to translate those into all possible SWN fields or add them to custom fields as necessary. The XML writer will then need to be updated accordingly. Similarly, BatchProcessingDirectives need to be declared in the INI file and handled appropriately (this should be a fast fix).
 
 Thorough integration with other options for python3-ldap has not been explored, as this was written testing in a specific environment. Handling of SSL and TLS settings needs to be implemented.
 
